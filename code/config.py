@@ -23,7 +23,7 @@ def set_cfg(cfg):
     # Number of runs with random init
     cfg.runs = 1
     # OPENAI_API_KEY
-    cfg.OPENAI_API_KEY = "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"
+    cfg.OPENAI_API_KEY = ""
     cfg.data = CN()
     cfg.gnn = CN()
     cfg.lm = CN()
