@@ -1,0 +1,24 @@
+.idea/
+data/*
+input/*/*/demo_*
+input/message/*
+input/distance/*/*
+input/embedding/*/*
+output/response/*/*/cache_response
+output/response/*/*/demo_*
+output/chat_completion/*/*/cache_chat_completion
+output/chat_completion/*/*/demo_*
+output/chat_completion/ogbg-molhiv/*/chat_completion_ogbg-molhiv_IF.pkl
+output/chat_completion/ogbg-molhiv/*/chat_completion_ogbg-molhiv_IFD.pkl
+output/conversation/*/*/cache_conversation
+output/conversation/*/*/demo_*
+output/chat_history/*/*/cache/
+output/chat_history/*/*/demo_*
+output/chat_history/ogbg-molhiv/gpt-35-turbo-1106/chat_history_ogbg-molhiv_S-Top-Train_50-S-PPE_smi-des_text-embedding-3-large_1.0_1.0_gin-v_seed42.json
+__pycache__
+*/.promptflow/*
+run_*_*.sh
+
+# Files are too large to check in
+input/description/*
+input/rag_knowledge/*
